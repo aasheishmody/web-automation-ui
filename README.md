@@ -51,9 +51,9 @@ mvn clean verify -Dcucumber.options="--plugin json:target/dev/chrome/json-files/
 mvn clean verify -Dcucumber.options="--plugin json:target/dev/edge/json-files/cucumber.json" -Dbrowser=edge -DtargetDir=target/dev/edge -Denvironment=dev
 ```
 
-To run accessibility tests on dev environment and place test report in the target/dev folder
+To run accessibility tests for accessibility standard WCAG 2.0 Level A on dev environment and place test report in the target/dev folder
 ```
-mvn clean verify -Dcucumber.options="--tags @accessibility --plugin json:target/dev/json-files/cucumber.json" -DtargetDir=target/dev -Denvironment=dev
+mvn clean verify -Dcucumber.options="--tags @accessibility --plugin json:target/dev/json-files/cucumber.json" -DtargetDir=target/dev -Denvironment=dev -DaccessibilityStandard="WCAG 2.0 Level A"
 ```
 *Accessibility tests take slightly over a minute to run because it needs to scan through the entire dom to check for accessibility violations on the page
 
