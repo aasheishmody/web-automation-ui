@@ -55,7 +55,7 @@ To run accessibility tests for accessibility standard WCAG 2.0 Level A on dev en
 ```
 mvn clean verify -Dcucumber.options="--tags @accessibility --plugin json:target/dev/json-files/cucumber.json" -DtargetDir=target/dev -Denvironment=dev -DaccessibilityStandard="WCAG 2.0 Level A"
 ```
-*Accessibility tests take slightly over a minute to run because it needs to scan through the entire dom to check for accessibility violations on the page
+**Accessibility tests take slightly over a minute to run because it needs to scan through the entire dom to check for accessibility violations on the page
 
 <b>Test report with screenshots as test evidence embedded beneath each test step</b>
 
@@ -63,7 +63,7 @@ mvn clean verify -Dcucumber.options="--tags @accessibility --plugin json:target/
 open target/../../cucumber-html-reports/overview-features.html in a browser
 ```
 
-*For other configurable properties check the properties section in the POM file
+**For other configurable properties check the properties section in the POM file
 
 <b>BDD</b> :heavy_check_mark:  
 <b>Cross Browser</b> :heavy_check_mark:  
