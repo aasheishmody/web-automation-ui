@@ -82,5 +82,11 @@ Maven
 Axe
 ```
 
-<b>Sample Test Report</b>
+<b>Sample UI Test Report</b>
 
+![image](https://user-images.githubusercontent.com/5993336/160018003-10afb86b-5664-43a3-a9f3-16b1800707c7.png)
+![image](https://user-images.githubusercontent.com/5993336/160018189-72750b06-af0d-414e-9e0b-8a6a534b21c0.png)
+![image](https://user-images.githubusercontent.com/5993336/160018324-5604fb4d-4f41-4cb1-bbdd-064bd361fe3e.png)
+
+<b>Sample Accessibility Test Report</b>
+![image](https://user-images.githubusercontent.com/5993336/160018707-8c285d44-d093-45b1-9cf2-1de001c60457.png)
