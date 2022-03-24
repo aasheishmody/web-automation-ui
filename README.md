@@ -21,7 +21,7 @@ Microsoft Edge
 mvn clean verify
 ```
 
-Examples:
+<b>Examples:</b>
 
 Parallel run on multiple instances of Microsoft Edge
 ```
@@ -68,9 +68,9 @@ open target/../../cucumber-html-reports/overview-features.html in a browser
 <b>BDD</b> :heavy_check_mark:  
 <b>Cross Browser</b> :heavy_check_mark:  
 <b>Parallel run</b> :heavy_check_mark:  
-<b>Page Object Pattern</b> :heavy_check_mark:
-<b>Accessibility testing</b> :heavy_check_mark:
-<b>Test Data Management for different environments</b> :heavy_check_mark:
+<b>Page Object Pattern</b> :heavy_check_mark:  
+<b>Accessibility testing</b> :heavy_check_mark:  
+<b>Test Data Management for different environments</b> :heavy_check_mark:  
 
 <b>Tech Stack</b>
 
@@ -89,4 +89,5 @@ Axe
 ![image](https://user-images.githubusercontent.com/5993336/160018324-5604fb4d-4f41-4cb1-bbdd-064bd361fe3e.png)
 
 <b>Sample Accessibility Test Report</b>
+
 ![image](https://user-images.githubusercontent.com/5993336/160018707-8c285d44-d093-45b1-9cf2-1de001c60457.png)
